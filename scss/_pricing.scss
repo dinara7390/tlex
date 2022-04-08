@@ -1,0 +1,221 @@
+@import "vars";
+@import "globals";
+@import 'container';
+
+.main {
+    .main__pricing {
+        margin-top: 187px;
+        .container {
+            .pricing__content {
+                .pricing__topic {
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 80px;
+                    font-style: normal;
+                    text-align: center;
+                }
+
+                .pricing__card {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    column-gap: 10px;
+
+
+                    .pricing__card-item {
+                        // border: 1px solid orange;
+                    }
+
+                    .pricing__img1 {
+                        width: 311px;
+                        height: 311px;
+                        margin: 19px 25px 40px;
+                    }
+
+                    .pricing__title1 {
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 48px;
+                        font-style: normal;
+                        margin-top: -6px;
+                    }
+
+                    .pricing__text1 {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $light;
+                        margin-top: -22px;
+                        margin-bottom: 29px;
+                    }
+
+                    .pricing__price1 {
+                        border-radius: 5px;
+                        background: $pricing;
+                        padding-left: 24px;
+                        display: flex;
+                        max-width: 240px;
+                        column-gap: 16px;
+
+                        .price {
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 45px;
+                            color: $accent2;
+                        }
+
+                        .long {
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: $color;
+                            align-self: center;
+                        }
+                    }
+
+
+                }
+
+                .pricing__item2 {
+                    .pricing__img2 {
+                        margin-top: 42px;
+                        margin-left: 25px
+                    }
+
+                    .pricing__title2 {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 48px;
+                        color: $accent2;
+                        margin-left: 26px;
+                        margin-top: 39px;
+                    }
+
+                    .pricing__text2 {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $light;
+                        margin-left: 25px;
+                        margin-top: -17px;
+                    }
+
+                    .pricing__price2 {
+                        border-radius: 5px;
+                        background: $pricing;
+                        display: flex;
+                        max-width: 240px;
+                        margin-left: 25px;
+                        padding-left: 22px;
+                        margin-top: 59px;
+                        column-gap: 10px;
+
+                        .price2 {
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 45px;
+                            color: $accent2;
+                        }
+
+                        .long2 {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: $color;
+                            align-self: center;
+                        }
+                    }
+                }
+
+                .pricing__item3 {
+
+                    .pricing__img3 {
+                        margin-left: 54px;
+                        margin-top: 17px;
+                    }
+
+                    .pricing__title3 {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 48px;
+                        color: $accent2;
+                        margin-top: 8px;
+                    }
+
+                    .pricing__text3 {
+                        font-family: $main-font;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: $light;
+                        margin-top: -20px;
+                    }
+
+                    .pricing__price3 {
+                        border-radius: 5px;
+                        background: $pricing;
+                        display: flex;
+                        max-width: 240px;
+                        max-width: 240px;
+                        margin-top: 56px;
+                        padding-left: 17px;
+                        column-gap: 12px;
+
+                        .price3 {
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 45px;
+                            color: $accent2;
+                        }
+
+                        .long3 {
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: $color;
+                            align-self: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// @media(max-width:992px) {
+//     .main{
+//         .main__pricing{
+//             .container{
+//                 max-width: 930px;
+//                 margin: 0 auto;
+//                 .pricing__content{
+//                     .pricing__topic{
+//                         line-height: 80px;
+//                         font-size: 36px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

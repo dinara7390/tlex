@@ -1,0 +1,144 @@
+@import "vars";
+@import "globals";
+@import 'container';
+
+.section__contact-us {
+
+    // margin-top: 10px;
+    .container {
+        .contact-us__content {
+            width: 776px;
+            height: 60px;
+            margin-top: 261px;
+            display: flex;
+            margin-bottom: 531px;
+            // justify-content: space-between;
+
+            .contact-us__img {
+                max-width: 477px;
+                height: 429px;
+                margin-top: -7px;
+                margin-left: -17px;
+            }
+
+            .contact-us__flex {
+                margin: 0 0 0 124px;
+
+                .contact-us__title {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 80px;
+                    color: $accent;
+                    margin-top: 27px;
+                    margin-left: -10px;
+                    margin-bottom: 89px;
+                }
+
+                .contact-us__text {
+                    font-family: $main-font;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: $light;
+                    margin-left: -16px;
+                    padding-right: 20px;
+                    margin-top: -55px;
+                }
+            }
+
+            .wrapper_inpt {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 10px;
+                margin-top: 68px;
+
+                .inputsize {
+                    padding: 26px 213px 30px 36px;
+                    margin-top: -16px;
+                    margin-left: -20px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-style: normal;
+                }
+            }
+
+            .btn_area {
+                padding: 25px 81px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+                font-family: $main-font;
+                border-radius: 10px;
+                background: #263238;
+                margin-top: -19px;
+                margin-right: 66px;
+            }
+
+            input {
+                border: 1px solid #8F95A5;
+                box-sizing: border-box;
+                border-radius: 10px;
+            }
+
+
+        }
+    }
+}
+@media(max-width:992px){
+    .main{
+        .section__contact-us{
+            .container{
+                .contact-us__content{
+                    margin-top: 90px;
+                    .contact-us__img{
+                        width: 312px;
+                        height: 281px;
+                        margin-left: 14px;
+                        margin-top: 43px;
+
+                    }
+                    .contact-us__flex{
+                        .contact-us__title{
+                            font-size: 36px;
+                            line-height: 80px;
+                            font-weight: 600;
+                            margin-left: -3px;
+                            margin-bottom: 56px;
+                            margin-top: 39px;
+                        }
+                        .contact-us__text{
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            padding-left: 0px;
+                            padding-right: 151px;
+                        }
+                        .wrapper_inpt{
+                            .inputsize{
+                                font-size: 14px;
+                                line-height: 21px;
+                                font-weight: 400;
+                                margin-top: -38px;
+                                padding: 23px 110px 20px 38px;
+                            }
+                            .btn_area{
+                                font-size: 16px;
+                                line-height: 24px;
+                                font-weight: 500;
+                                padding: 21px 56px 15px 56px;
+                                margin-top: -35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

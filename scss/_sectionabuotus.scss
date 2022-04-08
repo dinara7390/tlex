@@ -1,0 +1,116 @@
+@import "vars";
+@import "globals";
+@import 'container';
+
+.main{
+    .section__aboutus{
+        margin-top: 241px;
+        .container{
+            .about__content{
+                display: flex;
+                .aboutus__blog{
+                    .content__info{
+                        .info__title{
+                            font-size: 48px;
+                            line-height: 80px;
+                            font-weight: 600;
+                        }
+                        .info__text{
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #8F95A5;
+                            font-style: normal;
+                            margin-top: -17px;
+                            padding-right: 191px;
+                        }
+                        .info__block{
+                            display: flex;
+                            margin-top: 39px;
+                            .info__stats1{
+                                .down{
+                                    padding-left: 19px;
+                                }
+                            }
+                            .info__stats2{
+                                margin-left: 146px;
+                            }
+                            .info__stats3{
+                                margin-left: 89px;
+                            }
+                            .info__stats{
+                                .stats__value{
+                                    font-size: 48px;
+                                    line-height: 80px;
+                                    color: #2A3246;
+                                    font-weight: 600;
+                                    text-align: center;
+                                }
+                                .stats__name{
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    color: #8F95A5;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content__img{
+                    width: 500px;
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 992px){
+    .main{
+        .section__aboutus{
+            .container{
+                max-width: 930px;
+                margin: 0 auto;
+                .about__content{
+                    margin-top: -168px;
+                    .aboutus__blog{
+                        .content__info{
+                            .info__title{
+                                line-height: 80px;
+                                font-size: 36px;
+                            }
+                            .info__text{
+                                line-height: 24px;
+                                font-size: 16px;
+                                padding-right: 83px;
+                            }
+                            .info__block{
+                                margin-top: -5px;
+                                .info__stats{
+                                    .stats__value{
+                                        line-height: 80px;
+                                        font-size: 30px;
+                                    }
+                                    .stats__name{
+                                        line-height: 24px;
+                                        font-size: 16px;
+                                    }
+                                }
+                                .info__stats2{
+                                    margin-left: 62px;
+                                }
+                                .info__stats3{
+                                    margin-left: 47px;
+                                }
+                            }
+                        }
+                    }
+                    .content__img{
+                        width: 336px;
+                        height: 336px;
+                        margin-top: 57px;
+                    }
+                }
+            }
+        }
+    }
+}
